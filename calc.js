@@ -3,7 +3,7 @@ const inputBox = document.getElementById("input");
 
 let string = "";
 
-// let arr = Array.from(buttons);
+
 buttons.forEach(element => {
     element.addEventListener("click",(e) => {
         if(e.target.innerHTML == "="){
